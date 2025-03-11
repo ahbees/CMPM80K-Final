@@ -1,0 +1,1937 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 224,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.simpleplatformer",
+    "pixelsRounding": true,
+    "projectUuid": "f5d1515b-5868-4a15-af3a-0843547e26da",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "simple-platformer",
+    "version": "1.0.0",
+    "name": "CMPM 80K Final",
+    "description": "A simple platformer example game where the player can pick up coins to improve their score and die to an enemy character and falling off of platforms.\n\nThis example features:\n-Platformer behavior\n-Smooth camera behavior\n-Mobile controls\n-Various types of platforms\n-Basic enemy movement",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "preview.png"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Knight-Idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Idle3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Idle4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Idle4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Platform_Bridge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform_Bridge.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Platform_JumpThrough.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform_JumpThrough.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/coin11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "coin12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slime_green_walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/slime_green_walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/slime_green_walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/slime_green_walk4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "slime_green_walk4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Death1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Death2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Death3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Death4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Death4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Boundary.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Boundary",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/PixelOperator8-Bold.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "PixelOperator8-Bold.fnt",
+        "userAdded": true
+      },
+      {
+        "file": "assets/PixelOperator8-Bold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PixelOperator8-Bold.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Roll3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Roll8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Roll8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Knight-Run11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run13.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run14.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Knight-Run16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Knight-Run16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/coin.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "coin.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/hurt.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "hurt.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/time_for_adventure.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "time_for_adventure.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Left arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/f755ec56218a581fb4eb4c0c191db2c44a9a1e175dd364c230c211f0d9bd4e49_Left arrow round button.png",
+          "name": "Left arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Right arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/225220b063f1e3e52063ea032322443a816241fb8e55c6461d437847c5e69eef_Right arrow round button.png",
+          "name": "Right arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/Top arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Top arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/1f32e55ab59452d3021e8268476eac0edaad0c74e5e11adf46803d12947bf228_Top arrow round button.png",
+          "name": "Top arrow round button.png"
+        }
+      },
+      {
+        "file": "assets/preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/World_Tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\World_Tileset.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Background_Tileset.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Background_Tileset.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/dark-cave-landscape_1308-16279.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dark-cave-landscape_1308-16279.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Walking enemy_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking enemy_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/500b959fcdda57a26366fa7bbceb991d05af2ae23e3b68b7189e1412c55cafb2_Walking enemy_1.png",
+          "name": "Walking enemy_1.png"
+        }
+      },
+      {
+        "file": "assets/Walking enemy_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking enemy_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/547c1eb76445a37f6d356f44ecb933cfb694aed6ddfc96300c003e0b872cf8c4_Walking enemy_2.png",
+          "name": "Walking enemy_2.png"
+        }
+      },
+      {
+        "file": "assets/Walking enemy_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking enemy_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/6ac2bf1084194ebf61268984df9e27b6d62d2816df6c62d2fb0814c4e6de5173_Walking enemy_3.png",
+          "name": "Walking enemy_3.png"
+        }
+      },
+      {
+        "file": "assets/Walking enemy_dead_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking enemy_dead_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/b7d143504fad49e838d24a3e06b6a1d2186f6e2ad6ebd238080d23c353098107_Walking enemy_dead_1.png",
+          "name": "Walking enemy_dead_1.png"
+        }
+      },
+      {
+        "file": "assets/Left Stick2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left Stick.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Dark/x32/fcf0c284200ec7a7f4b8e4d0dfbfb3bb719e12730d578e7c14867f905fbed9e4_Left Stick.png",
+          "name": "Left Stick.png"
+        }
+      },
+      {
+        "file": "assets/Right Stick2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right Stick.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Controller And Input Icons/Button/Dark/x32/b45895b0a5f1cc8e11e8aab3e161b87b7f7a8a89b0ba82eefb10a871edc321e3_Right Stick.png",
+          "name": "Right Stick.png"
+        }
+      },
+      {
+        "file": "assets/Flying enemy (2)_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flying enemy (2)_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/751a9464202a183c3f64cbd7c827475f60f09ded183e640bcfe40fdec91f35d5_Flying enemy (2)_1.png",
+          "name": "Flying enemy (2)_1.png"
+        }
+      },
+      {
+        "file": "assets/Flying enemy (2)_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flying enemy (2)_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/f534fc2a4f50d4a098c3916c6ce1d0928157e4f96b0166b75e90ab3d26b236c9_Flying enemy (2)_2.png",
+          "name": "Flying enemy (2)_2.png"
+        }
+      },
+      {
+        "file": "assets/Flying enemy (2)_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flying enemy (2)_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/2e90fbd897068ba98e53ce23a45acc00877973b6a3fdaf8ef4114035a1a3b9ae_Flying enemy (2)_3.png",
+          "name": "Flying enemy (2)_3.png"
+        }
+      },
+      {
+        "file": "assets/Flying enemy (2)_dead_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flying enemy (2)_dead_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Enemies/c6fe9e18e6f2331a7f3258cd22a7ecfa633e629f2619dd91d52334368cddd194_Flying enemy (2)_dead_1.png",
+          "name": "Flying enemy (2)_dead_1.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/72de03b86bd3cc418f3c4628465ce1b068a7623bbba5940faca971636a692c56_Saw_Activate_1.png",
+          "name": "Saw_Activate_1.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/e10d37e9158c5778204155ac141f2ddae16ffd4b094428cb057341a29dd8a8e9_Saw_Activate_10.png",
+          "name": "Saw_Activate_10.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/239be249ca0b3b0891a907a25c7dae2a17ba7cf352f523876ff13b602f5f9454_Saw_Activate_11.png",
+          "name": "Saw_Activate_11.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/a3fcf521d9b23623488ea416fab49e7e050ac047d2f537868145d7422a59a3f8_Saw_Activate_12.png",
+          "name": "Saw_Activate_12.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/2026e11a818394035d32dd74a2dd86941b4964862b61a83e8578dff9e22aa293_Saw_Activate_13.png",
+          "name": "Saw_Activate_13.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/c9e72afb753137de810ca25105d92dd81ce63c2e99e8bd899da9d4b10b574977_Saw_Activate_2.png",
+          "name": "Saw_Activate_2.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/a72f9c1182899ec3e2840ea2ba1e22a5285029da6bdd07df2c43ad1e211c0dab_Saw_Activate_3.png",
+          "name": "Saw_Activate_3.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/a85fbd6fc4200613f8ecc034828f535d059e1dfa6d546f77ea974138d9629800_Saw_Activate_4.png",
+          "name": "Saw_Activate_4.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/1e722bdf5b02038da11832a8eb65cf98481b6c00438dafb28abb98a13427293e_Saw_Activate_5.png",
+          "name": "Saw_Activate_5.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/4bbd8907c02cfd5243fe97be2b2460b66cfd66e44360ea68c653b09b3537c64c_Saw_Activate_6.png",
+          "name": "Saw_Activate_6.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/31a6cdaeade9c23b199142a8b8828d5dbaeabf161a609382aa7df3e037ab9906_Saw_Activate_7.png",
+          "name": "Saw_Activate_7.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/1ca0cead166b4180084d497ccdeca00c5baea33fef607af8d8a27eecbe559b09_Saw_Activate_8.png",
+          "name": "Saw_Activate_8.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Activate_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Activate_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/78dd8b2705cfea76101df46b03260e9efeb2b0fabb316537a2c0ce46bb5af665_Saw_Activate_9.png",
+          "name": "Saw_Activate_9.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/6919ccaa8bd29c0ad12a63bbddba37963b6531a70891850883e6f0c193320c95_Saw_Deactivate_1.png",
+          "name": "Saw_Deactivate_1.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/b2b61b7b0b6a995fe4fe6301b98ee85e67317e8e97fa12d68911bcbc86b22404_Saw_Deactivate_10.png",
+          "name": "Saw_Deactivate_10.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/5f536554c34acaa2445ed99fcdeb4e0dda759654bbaa086db7b52c71b268e77b_Saw_Deactivate_11.png",
+          "name": "Saw_Deactivate_11.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/f9c531e8a1ec9bccc114ac3b7ecc9db52bcbd04cf858c7667c2fce1b04c036ef_Saw_Deactivate_12.png",
+          "name": "Saw_Deactivate_12.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/aa3ed0f4d598ebfbfd2396b08d7fda1743e3b8a33e522cc4a86a957b18e0a8a9_Saw_Deactivate_13.png",
+          "name": "Saw_Deactivate_13.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/0e1e7afadbaa29b3df3eeb51ee90581d9fd301b703a280e11e7012e59e8a664e_Saw_Deactivate_2.png",
+          "name": "Saw_Deactivate_2.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/f83ff57e8d61d65b4fb89430f1eafec5837b4fb245eab6dbcfd6474214bd24e0_Saw_Deactivate_3.png",
+          "name": "Saw_Deactivate_3.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/22d216522853073ab2944f01a232b3641ddce96b73e9b9b69d08eb72baf0b38f_Saw_Deactivate_4.png",
+          "name": "Saw_Deactivate_4.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/9483f93c88fd4eade437cb0849aca3986b1ebb7bcca7d8595024471b9d857d3e_Saw_Deactivate_5.png",
+          "name": "Saw_Deactivate_5.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/70d24129bee9932619d6deb4618b1e3ea70e99924edb69cd1b2d755edabddf02_Saw_Deactivate_6.png",
+          "name": "Saw_Deactivate_6.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/a832aa07892d0603aa682c7091ca8a0ef0cee9364d41cba807d682e847160344_Saw_Deactivate_7.png",
+          "name": "Saw_Deactivate_7.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/1dfa3fbd69dab5325be171c84b63aa6b7b65db0b0b5bb2189a0d71f631783a98_Saw_Deactivate_8.png",
+          "name": "Saw_Deactivate_8.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Deactivate_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Deactivate_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/6864767fc23e6a041eeef07dd1b44e68f43aebac2e56a533fd54f875c76a8cd6_Saw_Deactivate_9.png",
+          "name": "Saw_Deactivate_9.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/0357b881d0ab91961d6a541aca164589afc52c1e27e55ffe899649b3152af3bd_Saw_Idle_1.png",
+          "name": "Saw_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/21da13e2e7b91752140723c5a54852705c6cdd3044cf92587084e419c1446d95_Saw_Idle_2.png",
+          "name": "Saw_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/2275335d21430dede79b8a6824abc6783ac46d4920afd1ba8a301cc42770dd4d_Saw_Idle_3.png",
+          "name": "Saw_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/dfb8bc90cdb62bc4f8651e40dd625065dca9811cb4bb519a1eb32487fffc518c_Saw_Idle_4.png",
+          "name": "Saw_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Idle_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/91b2760a7cd890cc71d98c466ed61965ae2a15c53053d733ed347aba28ab4299_Saw_Idle_5.png",
+          "name": "Saw_Idle_5.png"
+        }
+      },
+      {
+        "file": "assets/Saw_Idle_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Saw_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Sci-Fi Lab/Trap/5e1a51709e0d74f085b1afb07cadb336572630bd8d5c21d69228a9db11f08507_Saw_Idle_6.png",
+          "name": "Saw_Idle_6.png"
+        }
+      },
+      {
+        "file": "assets/Rope Long2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rope Long.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Pack/be838b88bed977d5c6f2e550b1c4cd30e040e844c716759e0156ea05e14fdd27_Rope Long.glb",
+          "name": "Rope Long.glb"
+        }
+      },
+      {
+        "file": "assets/Door_Closed2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/cf63215d6e61ab39a3c0af84abdc9d74a21601c72078be57c1b74fa732d6d642_Door_Closed.png",
+          "name": "Door_Closed.png"
+        }
+      },
+      {
+        "file": "assets/Door_Closing_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/6b88886449d1d6f007da76f35dde1a45f53cb3ed4976d3a7b623f2cfd3224d00_Door_Closing_1.png",
+          "name": "Door_Closing_1.png"
+        }
+      },
+      {
+        "file": "assets/Door_Closing_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/cf63215d6e61ab39a3c0af84abdc9d74a21601c72078be57c1b74fa732d6d642_Door_Closing_2.png",
+          "name": "Door_Closing_2.png"
+        }
+      },
+      {
+        "file": "assets/Door_Closing_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/c4a30378bfc85909f67651ac60bbabac6a4c62fa7bfde0c9366f0752c97eb4ca_Door_Closing_3.png",
+          "name": "Door_Closing_3.png"
+        }
+      },
+      {
+        "file": "assets/Door_Closing_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/c4a30378bfc85909f67651ac60bbabac6a4c62fa7bfde0c9366f0752c97eb4ca_Door_Closing_4.png",
+          "name": "Door_Closing_4.png"
+        }
+      },
+      {
+        "file": "assets/Door_Closing_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closing_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/cf63215d6e61ab39a3c0af84abdc9d74a21601c72078be57c1b74fa732d6d642_Door_Closing_5.png",
+          "name": "Door_Closing_5.png"
+        }
+      },
+      {
+        "file": "assets/Door_Opening_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/872440f9321bc83d4317c3d70200b8b04da2bca3a574cd9c9d3aca27472b5785_Door_Opening_1.png",
+          "name": "Door_Opening_1.png"
+        }
+      },
+      {
+        "file": "assets/Door_Opening_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/188b41d1cd7ba282fab20d4f32ae1c67dabcc5583a49061787b77d36a8601b5e_Door_Opening_2.png",
+          "name": "Door_Opening_2.png"
+        }
+      },
+      {
+        "file": "assets/Door_Opening_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/2eeb688fb5c3da8ccb2576cdf2e426ae8b728a13e077b477b78de321659a57c6_Door_Opening_3.png",
+          "name": "Door_Opening_3.png"
+        }
+      },
+      {
+        "file": "assets/Door_Opening_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/2eeb688fb5c3da8ccb2576cdf2e426ae8b728a13e077b477b78de321659a57c6_Door_Opening_4.png",
+          "name": "Door_Opening_4.png"
+        }
+      },
+      {
+        "file": "assets/Door_Opening_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Opening_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Objects/Door/188b41d1cd7ba282fab20d4f32ae1c67dabcc5583a49061787b77d36a8601b5e_Door_Opening_5.png",
+          "name": "Door_Opening_5.png"
+        }
+      },
+      {
+        "file": "assets/cave themeb4.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "cave themeb4.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/567ca159716680d1003a2f71cd5f23d6d5e7b9f80e80688b14bfff7def565c0c-cave themeb4.ogg",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/soul-steal-01-98129.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "soul-steal-01-98129.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/275e327127c18e78aa0dab83e72a305bc0e83dc105a5289f1daebd4918ae162a-soul-steal-01-98129.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/vine-boom.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "vine-boom.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/d82d8d0ad056b1255394725c3f0399ad5ffcbf32e69e1e7695befb8d36aaf3cc-vine-boom.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Untitled video - Made with Clipchamp.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Untitled video - Made with Clipchamp.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/ab515ea1e47fefe0e7bec10ad99dd8c8323f2545f595f70d833dcbf229c4d216-Untitled video - Made with Clipchamp.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Untitled video - Made with Clipchamp (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Untitled video - Made with Clipchamp (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/021ea11153d0503b40a9b90fa8008eb01b979eb987aaddb3faf180b20e6dede1-Untitled video - Made with Clipchamp (1).mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/audio-editor-output (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio-editor-output (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/c35b5cec8aa54ac969ad061612c9bebb59da4ad5977c222030363b3133dcd59f-audio-editor-output (1).mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/audio-editor-output.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio-editor-output.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/04ed24830522066c7eedd832e35c503192219d2b0f3813f86be3a742ce96ae26-audio-editor-output.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/door-editor-output.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "door-editor-output.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/3de07443395cf2a64449210506c7ea7e8a654db30b7b253d0cf7f60a1267fd4b-door-editor-output.mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/jlwd_2ucy_201006.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "jlwd_2ucy_201006.jpg",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/cf3fdaf9ca511a168142a8ceaa6e75046971c84b56e70ef569f6560503a5f14c-jlwd_2ucy_201006.jpg",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/door-editor-output (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "door-editor-output (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/b4be434cc27892ace5856531aef80eefef3d621dcee42cb4980703821011dd00-door-editor-output (1).mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/jlwd_2ucy_201006 - Copy.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "jlwd_2ucy_201006 - Copy.jpg",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/d829a1ea2c200849548af1cf95ee9b91f0f3d7a78b379fe56956020230e26c72-jlwd_2ucy_201006 - Copy.jpg",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Red house small3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red house small 2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Building/a41eae54d9426ddb558d7be56b3493262b18bf878e021286cb6d6e4c191f4807_Red house small 2.png",
+          "name": "Red house small 2.png"
+        }
+      },
+      {
+        "file": "assets/Adventurer4_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Adventurer4_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Medieval/349828562d1e0da8d35a49147c3076b6e6bf53f983a2580e279c105fb1c846cc_Adventurer4_Idle_1.png",
+          "name": "Adventurer4_Idle_1.png"
+        }
+      },
+      {
+        "file": "assets/Adventurer4_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Adventurer4_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Medieval/349828562d1e0da8d35a49147c3076b6e6bf53f983a2580e279c105fb1c846cc_Adventurer4_Idle_2.png",
+          "name": "Adventurer4_Idle_2.png"
+        }
+      },
+      {
+        "file": "assets/Adventurer4_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Adventurer4_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Medieval/f565055a0e6391ab15196b4ea3ab6650534b794869dd5eea1f16fe8805fac67d_Adventurer4_Idle_3.png",
+          "name": "Adventurer4_Idle_3.png"
+        }
+      },
+      {
+        "file": "assets/Adventurer4_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Adventurer4_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Chierit/Lively NPC/Medieval/5f2d5e0194a994d45fab716c528d91ffaed9b1a8a937c18e66699c7544f4819e_Adventurer4_Idle_4.png",
+          "name": "Adventurer4_Idle_4.png"
+        }
+      },
+      {
+        "file": "assets/zapsplat_science_fiction_atmosphere_airy_glistening_shiny_floating_sinister_45645 (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "zapsplat_science_fiction_atmosphere_airy_glistening_shiny_floating_sinister_45645 (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/e12497ce-de3f-4902-8aea-6c4c89d1c5ca/resources/1446ef537789543213769bbee27003c8251919eb2d91639bc5ee54f4d22a4b38-zapsplat_science_fiction_atmosphere_airy_glistening_shiny_floating_sinister_45645 (1).mp3",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/goldstaff.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"goldstaff.png\",\"extension\":\".png\"}",
+        "name": "goldstaff.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/goldstaff2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goldstaff2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fireball2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Fireball.png\",\"extension\":\".png\"}",
+        "name": "Fireball.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tank Bullet3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tank Bullet 1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/Projectile/4567af4abbf7403854ee626b410d037b60e7240e27cc642db1269dda165c5341_Tank Bullet 1.png",
+          "name": "Tank Bullet 1.png"
+        }
+      },
+      {
+        "file": "assets/Tank Bullet 1_flying2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tank Bullet 1_flying.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tank pack (80 assets)/Projectile/f47720f8a794ed6052dc14797f159587ebfb5a4b65ac921c97e3195ae2ff32d6_Tank Bullet 1_flying.png",
+          "name": "Tank Bullet 1_flying.png"
+        }
+      },
+      {
+        "file": "assets/Tank Bullet4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tank Bullet 1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite2.png\"}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fireball3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fireball",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lightning_Wall2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Lightning_Wall",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bat_Fly_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bat_Fly_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/63dace955b11725fdbb85ed90cfdcb7b34af1ed36e81e776f570767fa80e1cd7_Bat_Fly_1.png",
+          "name": "Bat_Fly_1.png"
+        }
+      },
+      {
+        "file": "assets/Bat_Fly_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bat_Fly_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/5f9cff627ce60481f99b1016c2e23dd0a92201025c70e89cec2af6f2b166103a_Bat_Fly_2.png",
+          "name": "Bat_Fly_2.png"
+        }
+      },
+      {
+        "file": "assets/Bat_Fly_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bat_Fly_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/0e1d8a747c447841766748ac5dce172bf70b4a21ef8e557cf45d6e2f6061c6bb_Bat_Fly_3.png",
+          "name": "Bat_Fly_3.png"
+        }
+      },
+      {
+        "file": "assets/Bat_Fly_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bat_Fly_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/f817f51a7ef0f36f62c2d608285438e14ea81a823de8a7cc1120afb728dc20eb_Bat_Fly_4.png",
+          "name": "Bat_Fly_4.png"
+        }
+      },
+      {
+        "file": "assets/Bat_Fly_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bat_Fly_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/37a5d17e6aab5db7c58c2943faf31790c13542533c581f95fbb162478910ac33_Bat_Fly_6.png",
+          "name": "Bat_Fly_6.png"
+        }
+      },
+      {
+        "file": "assets/Tile 19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile 19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/c1f762a258dfbdacd56dc87ace5cd25acd738c5590476552d4ca430ca5cec505_Tile 19.png",
+          "name": "Tile 19.png"
+        }
+      },
+      {
+        "file": "assets/Tile 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile 18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/aae647007307002e4ff30e944b69f77d93eaadd0cae2992cfae5ed32a059f702_Tile 18.png",
+          "name": "Tile 18.png"
+        }
+      },
+      {
+        "file": "assets/Tile 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tile 26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/65bb59943192745a21ed0c583862590219c90d93774ca1c014cb4198751573d4_Tile 26.png",
+          "name": "Tile 26.png"
+        }
+      },
+      {
+        "file": "assets/Cave Under Tile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cave Under Tile.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/95ba703db10c28440e0e9d52ab792c4af621ad2833911f5dde01c90774994a6b_Cave Under Tile.png",
+          "name": "Cave Under Tile.png"
+        }
+      },
+      {
+        "file": "assets/Gold Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gold Key.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Collectable items/fdcb7a1555a367b7b6d59d29c88d2e385553db814f24888047ec57706c2b8956_Gold Key.png",
+          "name": "Gold Key.png"
+        }
+      },
+      {
+        "file": "../../../../Downloads/audio-editor-output.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Downloads\\audio-editor-output.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "audio-editor-output2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio-editor-output2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "botton_floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "botton_floor.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Ice ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ice ball.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dragon_head_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dragon_head_red.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dragon_head_blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dragon_head_blue.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "thunder_bear_skill2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "thunder_bear_skill2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "thunder_bear_skill3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "thunder_bear_skill3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Right-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/91e09053deb6974f426debf11cf77b6ca72c64dfaffa8c4887732df66cde2c71_Right-Arrow.png",
+          "name": "Right-Arrow.png"
+        }
+      },
+      {
+        "file": "goldstaff3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"goldstaff3.png\",\"extension\":\".png\"}",
+        "name": "goldstaff3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "audio-editor-output3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio-editor-output3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "audio-editor-output4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "audio-editor-output4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Controls",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Key_Jump",
+          "type": "string",
+          "value": "Space"
+        },
+        {
+          "name": "Key_Left",
+          "type": "string",
+          "value": "a"
+        },
+        {
+          "name": "Key_Right",
+          "type": "string",
+          "value": "d"
+        }
+      ]
+    },
+    {
+      "name": "Ammo",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Fire",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "Ice",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "Lightning",
+          "type": "boolean",
+          "value": true
+        }
+      ]
+    },
+    {
+      "name": "Current_Weapon",
+      "type": "string",
+      "value": "Fire"
+    },
+    {
+      "name": "Total_Souls",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Total_Souls_Start",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-3"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemies"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/controls"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/collisions"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/staff"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemy-deaths"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectanglemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firebullet"
+    }
+  ],
+  "externalLayouts": []
+}
