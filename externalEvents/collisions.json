@@ -502,7 +502,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "Player2",
+                "Player",
                 "Walls",
                 "",
                 "",
@@ -516,7 +516,7 @@
                 "value": "SeparateFromObjects"
               },
               "parameters": [
-                "Player2",
+                "Player",
                 "Walls",
                 ""
               ]

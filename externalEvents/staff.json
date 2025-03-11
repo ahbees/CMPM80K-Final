@@ -98,12 +98,12 @@
                 "value": "FireBullet::FireBullet::Fire"
               },
               "parameters": [
-                "Fire_Staff",
+                "Ice_Staff",
                 "FireBullet",
-                "Fire_Staff.PointX(\"ProjectilePoint\")",
-                "Fire_Staff.PointY(\"ProjectilePoint\")",
+                "Ice_Staff.PointX(\"ProjectilePoint\")",
+                "Ice_Staff.PointY(\"ProjectilePoint\")",
                 "Ice_Ball",
-                "Fire_Staff.Angle()",
+                "Ice_Staff.Angle()",
                 "100",
                 ""
               ]
@@ -139,12 +139,12 @@
                 "value": "FireBullet::FireBullet::Fire"
               },
               "parameters": [
-                "Fire_Staff",
+                "Lightning_Staff",
                 "FireBullet",
-                "Fire_Staff.PointX(\"ProjectilePoint\")",
-                "Fire_Staff.PointY(\"ProjectilePoint\")",
+                "Lightning_Staff.PointX(\"ProjectilePoint\")",
+                "Lightning_Staff.PointY(\"ProjectilePoint\")",
                 "Lightning",
-                "Fire_Staff.Angle()",
+                "Lightning_Staff.Angle()",
                 "100",
                 ""
               ]
@@ -186,6 +186,60 @@
                 "value": "PosX"
               },
               "parameters": [
+                "Ice_Staff",
+                ">",
+                "CursorX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "Ice_Staff",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Lightning_Staff",
+                ">",
+                "CursorX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "Lightning_Staff",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
                 "Fire_Staff",
                 "<",
                 "CursorX()"
@@ -207,7 +261,72 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Ice_Staff",
+                "<",
+                "CursorX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "Ice_Staff",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosX"
+              },
+              "parameters": [
+                "Lightning_Staff",
+                "<",
+                "CursorX()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipY"
+              },
+              "parameters": [
+                "Lightning_Staff",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Current_Weapon",
+                "=",
+                "\"Fire\""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -227,6 +346,88 @@
               },
               "parameters": [
                 "Fire_Staff",
+                "CursorX()",
+                "CursorY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Current_Weapon",
+                "=",
+                "\"Ice\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Ice_Staff",
+                "=",
+                "Player.PointX(\"Staff\")",
+                "=",
+                "Player.PointY(\"Staff\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Ice_Staff",
+                "CursorX()",
+                "CursorY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringVariable"
+              },
+              "parameters": [
+                "Current_Weapon",
+                "=",
+                "\"Lightning\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Lightning_Staff",
+                "=",
+                "Player.PointX(\"Staff\")",
+                "=",
+                "Player.PointY(\"Staff\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "Lightning_Staff",
                 "CursorX()",
                 "CursorY()",
                 "0",
@@ -270,6 +471,31 @@
                 "=",
                 "\"Fire\""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Fire_Staff",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Ice_Staff"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Lightning_Staff"
+              ]
             }
           ]
         },
@@ -296,6 +522,31 @@
                 "=",
                 "\"Ice\""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Ice_Staff",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Fire_Staff"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Lightning_Staff"
+              ]
             }
           ]
         },
@@ -321,6 +572,31 @@
                 "Current_Weapon",
                 "=",
                 "\"Lightning\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Lightning_Staff",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Fire_Staff"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Ice_Staff"
               ]
             }
           ]
