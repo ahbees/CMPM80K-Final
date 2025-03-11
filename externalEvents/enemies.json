@@ -20,7 +20,7 @@
             "value": "ActivateBehavior"
           },
           "parameters": [
-            "FlyingEnemy2",
+            "Flying_Skeleton",
             "PlatformerObject",
             "no"
           ]
@@ -170,7 +170,7 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "FlyingEnemy2",
+                "Flying_Skeleton",
                 "40",
                 "0",
                 "0"
@@ -229,7 +229,7 @@
                 "value": "AddForceXY"
               },
               "parameters": [
-                "FlyingEnemy2",
+                "Flying_Skeleton",
                 "-40",
                 "0",
                 "0"

@@ -51,17 +51,6 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Enemies",
-                "Animation",
-                "=",
-                "\"dead\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -79,6 +68,17 @@
                 "Text",
                 "=",
                 "\"Souls:\" + Total_Souls"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemies",
+                "Animation",
+                "=",
+                "\"dead\""
               ]
             },
             {
@@ -152,17 +152,6 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Enemies",
-                "Animation",
-                "=",
-                "\"dead\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -180,6 +169,17 @@
                 "Text",
                 "=",
                 "\"Souls:\" + Total_Souls"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemies",
+                "Animation",
+                "=",
+                "\"dead\""
               ]
             },
             {
@@ -253,17 +253,6 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Enemies",
-                "Animation",
-                "=",
-                "\"dead\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -281,6 +270,17 @@
                 "Text",
                 "=",
                 "\"Souls:\" + Total_Souls"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Enemies",
+                "Animation",
+                "=",
+                "\"dead\""
               ]
             },
             {

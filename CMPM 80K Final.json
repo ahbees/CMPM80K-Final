@@ -1807,6 +1807,494 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "SkeletonKing_Walk1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SkeletonKing_Walk1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SkeletonKing_Walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SkeletonKing_Walk2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "SkeletonKing_Walk3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SkeletonKing_Walk3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_010.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_011.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_012.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (2).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (4).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (5).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (6).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (7).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (7).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (8).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (8).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (9).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (9).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (10).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (10).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (11).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (11).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (12).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (12).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (13).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (13).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer (14).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer (14).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (38).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (38).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (39).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (39).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (40).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (40).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (41).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (41).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (42).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (42).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (43).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (43).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (44).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (44).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/Necromancer_000/Necromancer animation/Necromancer (45).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (45).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_029.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_029.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_031.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_031.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_032.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_032.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_033.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_033.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_034.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_034.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_035.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_035.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_036.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_036.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_037.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_037.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_038.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_038.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_039.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_039.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/Death animation/SkeletonKing_040.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_040.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Monster design/SkeletonKing/SkeletonKing_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster design\\SkeletonKing\\SkeletonKing_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_021.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_022.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_023.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_024.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "design 2/player2/knight_01_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "design 2\\player2\\knight_01_007.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

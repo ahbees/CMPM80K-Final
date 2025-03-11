@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8141881203710019,
+    "zoomFactor": 3.2783338653795506,
     "windowMask": false
   },
   "objectsGroups": [
@@ -40,10 +40,10 @@
       "name": "Enemies",
       "objects": [
         {
-          "name": "Enemy"
+          "name": "Skeleton"
         },
         {
-          "name": "FlyingEnemy2"
+          "name": "Flying_Skeleton"
         }
       ]
     }
@@ -66,14 +66,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
+      "height": 48,
       "keepRatio": true,
       "layer": "",
       "name": "Player",
       "persistentUuid": "91f0f44b-8682-453a-b43e-f4083a4f1b13",
-      "width": 32,
+      "width": 48,
       "x": -16,
-      "y": 192,
+      "y": 176,
       "zOrder": 97,
       "numberProperties": [],
       "stringProperties": [],
@@ -170,23 +170,6 @@
       "customSize": true,
       "depth": 1,
       "height": 16,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Enemy",
-      "persistentUuid": "1eec3f3f-ec5a-44bc-8bac-ad29227fbe44",
-      "width": 16,
-      "x": 304,
-      "y": 192,
-      "zOrder": 98,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 16,
       "layer": "",
       "name": "LeftStick",
       "persistentUuid": "52076923-67a9-42b9-b0f2-f6c432b286c4",
@@ -251,45 +234,12 @@
       "customSize": true,
       "depth": 1,
       "height": 16,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Enemy",
-      "persistentUuid": "7c6e2af8-7bce-48c5-81a6-8e4fd87a0664",
-      "width": 16,
-      "x": 592,
-      "y": 304,
-      "zOrder": 98,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 16,
-      "layer": "",
-      "name": "FlyingEnemy2",
-      "persistentUuid": "59ab6f25-801a-4902-a858-953b400bdb30",
-      "width": 16,
-      "x": 176,
-      "y": 288,
-      "zOrder": 101,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 16,
       "layer": "",
       "name": "LeftStick",
       "persistentUuid": "59d57e52-f643-4dfc-8ae6-a9923cf9a934",
       "width": 10,
-      "x": 128,
-      "y": 288,
+      "x": 112,
+      "y": 304,
       "zOrder": 99,
       "numberProperties": [],
       "stringProperties": [],
@@ -305,7 +255,7 @@
       "persistentUuid": "87476e50-b404-4b26-ae3e-8242d4cd7418",
       "width": 10,
       "x": 224,
-      "y": 288,
+      "y": 304,
       "zOrder": 100,
       "numberProperties": [],
       "stringProperties": [],
@@ -358,6 +308,57 @@
       "x": 256,
       "y": 384,
       "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "1384ed16-1d21-41d8-a311-da65d11157e7",
+      "width": 32,
+      "x": 304,
+      "y": 176,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "d84d8290-6208-4917-bf12-47120461eff1",
+      "width": 32,
+      "x": 576,
+      "y": 288,
+      "zOrder": 107,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Flying_Skeleton",
+      "persistentUuid": "627ba0c6-79c5-445c-a849-91488459c162",
+      "width": 32,
+      "x": 160,
+      "y": 288,
+      "zOrder": 108,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -485,12 +486,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.15,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle1.png",
+                  "image": "design 2\\player2\\knight_01_000.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -506,27 +507,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle2.png",
+                  "image": "design 2\\player2\\knight_01_001.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -542,27 +543,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle3.png",
+                  "image": "design 2\\player2\\knight_01_002.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -578,56 +579,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
@@ -662,20 +627,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
@@ -698,20 +663,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
@@ -734,20 +699,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
@@ -770,20 +735,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
@@ -802,7 +767,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll3.png",
+                  "image": "design 2\\player2\\knight_01_021.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -818,27 +783,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll4.png",
+                  "image": "design 2\\player2\\knight_01_022.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -854,27 +819,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll5.png",
+                  "image": "design 2\\player2\\knight_01_023.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -890,27 +855,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll6.png",
+                  "image": "design 2\\player2\\knight_01_024.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -926,92 +891,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
@@ -1026,11 +919,11 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.15,
+              "timeBetweenFrames": 0.005,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Run1.png",
+                  "image": "design 2\\player2\\knight_01_002.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1046,27 +939,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Run2.png",
+                  "image": "design 2\\player2\\knight_01_003.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1082,27 +975,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Run3.png",
+                  "image": "design 2\\player2\\knight_01_004.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1118,27 +1011,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Run4.png",
+                  "image": "design 2\\player2\\knight_01_005.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1154,27 +1047,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Run5.png",
+                  "image": "design 2\\player2\\knight_01_006.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1190,27 +1083,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Knight-Run6.png",
+                  "image": "design 2\\player2\\knight_01_007.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1226,380 +1119,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 9
+                        "x": 39,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 9
+                        "x": 72,
+                        "y": 88
                       },
                       {
-                        "x": 22,
-                        "y": 28
+                        "x": 72,
+                        "y": 133
                       },
                       {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run10.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run11.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run12.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run13.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run14.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run15.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run16.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
+                        "x": 39,
+                        "y": 133
                       }
                     ]
                   ]
@@ -2551,213 +2084,6 @@
     },
     {
       "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "bedc71234c65f86bc56e67b131409842ea1bd8b7e818a51ac464c17c581d0c2d",
-      "name": "Enemy",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "walk",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "maxSpeed": 40,
-          "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
-          "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "walk",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.3333,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walking enemy_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 44
-                      },
-                      {
-                        "x": 9,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walking enemy_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 44
-                      },
-                      {
-                        "x": 9,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walking enemy_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 44
-                      },
-                      {
-                        "x": 9,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "dead",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Walking enemy_dead_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 0
-                      },
-                      {
-                        "x": 41,
-                        "y": 44
-                      },
-                      {
-                        "x": 9,
-                        "y": 44
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "a5a77f64cc55fa0ab1455ea5709707a30c75fbd5800bcfeb2f003a61e18d43cd",
       "name": "LeftStick",
       "type": "Sprite",
@@ -2866,213 +2192,6 @@
                       {
                         "x": 0,
                         "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "04f94bfb9285eb885871eb69f6f7d225721de31151fbeeb686fb1807b9ae82e0",
-      "name": "FlyingEnemy2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "walk",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
-          "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 40,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.3333,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Flying enemy (2)_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 37
-                      },
-                      {
-                        "x": 6,
-                        "y": 37
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Flying enemy (2)_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 37
-                      },
-                      {
-                        "x": 6,
-                        "y": 37
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Flying enemy (2)_3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 37
-                      },
-                      {
-                        "x": 6,
-                        "y": 37
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "dead",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Flying enemy (2)_dead_1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 1
-                      },
-                      {
-                        "x": 58,
-                        "y": 37
-                      },
-                      {
-                        "x": 6,
-                        "y": 37
                       }
                     ]
                   ]
@@ -4966,6 +4085,1644 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Skeleton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "walk",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 40,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.3333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\SkeletonKing_012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.03,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_029.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_030.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_034.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_035.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_036.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_037.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_038.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_039.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\SkeletonKing\\Death animation\\SkeletonKing_040.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 15
+                      },
+                      {
+                        "x": 44,
+                        "y": 57
+                      },
+                      {
+                        "x": 16,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Flying_Skeleton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "walk",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 40,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (3).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (4).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (5).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (6).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (7).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (8).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (9).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (10).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (11).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (12).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (13).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer (14).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.075,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (38).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (39).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (40).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (41).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (42).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (43).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (44).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster design\\Necromancer_000\\Necromancer animation\\Necromancer (45).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 11
+                      },
+                      {
+                        "x": 50,
+                        "y": 52
+                      },
+                      {
+                        "x": 12,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4975,10 +5732,10 @@
         "objectName": "Player"
       },
       {
-        "objectName": "Enemy"
+        "objectName": "Skeleton"
       },
       {
-        "objectName": "FlyingEnemy2"
+        "objectName": "Flying_Skeleton"
       },
       {
         "objectName": "Saw"
@@ -5665,10 +6422,6 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "FireBullet",
-      "type": "FireBullet::FireBullet"
     },
     {
       "name": "Flippable",
