@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.9934590384902224,
+    "zoomFactor": 0.9934433498259707,
     "windowMask": false
   },
   "objectsGroups": [
@@ -602,162 +602,6 @@
           ]
         },
         {
-          "name": "Death",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.15,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Jump",
           "useMultipleDirections": false,
           "directions": [
@@ -1104,6 +948,162 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "design 2\\player2\\knight_01_007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Death",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect 4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5972,7 +5972,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "2"
+            "1"
           ]
         },
         {
