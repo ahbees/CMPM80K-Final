@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.3841198046307686,
+    "zoomFactor": 1.384119804630769,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1153,8 +1153,8 @@
       "name": "Player",
       "persistentUuid": "736535fa-6b09-484b-93da-25892852a1eb",
       "width": 80,
-      "x": -15,
-      "y": 210,
+      "x": -14,
+      "y": 145,
       "zOrder": 127,
       "numberProperties": [],
       "stringProperties": [],
@@ -1479,1432 +1479,6 @@
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Player2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PlatformerCharacterAnimator",
-          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
-          "EnableAnimationChanges": true,
-          "EnableHorizontalFlipping": true,
-          "IdleAnimationName": "Idle",
-          "RunAnimationName": "Run",
-          "JumpAnimationName": "Jump",
-          "FallAnimationName": "Fall",
-          "ClimbAnimationName": "Climb",
-          "PlatformerBehavior": "PlatformerObject",
-          "Animation": "Animation",
-          "Flippable": "Flippable"
-        },
-        {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
-          "acceleration": 400,
-          "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": false,
-          "deceleration": 1500,
-          "gravity": 300,
-          "ignoreDefaultControls": false,
-          "jumpSpeed": 170,
-          "jumpSustainTime": 0.15,
-          "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 400,
-          "maxSpeed": 100,
-          "slopeMaxAngle": 60,
-          "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.9,
-          "RightwardSpeed": 0.9,
-          "UpwardSpeed": 0.9,
-          "DownwardSpeed": 0.9,
-          "FollowOnX": true,
-          "FollowOnY": true,
-          "FollowFreeAreaLeft": 0,
-          "FollowFreeAreaRight": 0,
-          "FollowFreeAreaTop": 0,
-          "FollowFreeAreaBottom": 0,
-          "CameraOffsetX": 0,
-          "CameraOffsetY": 0,
-          "CameraDelay": 0,
-          "ForecastTime": 0,
-          "ForecastHistoryDuration": 0,
-          "LogLeftwardSpeed": 2.0247e-320,
-          "LogRightwardSpeed": 2.0247e-320,
-          "LogDownwardSpeed": 2.0247e-320,
-          "LogUpwardSpeed": 2.0247e-320,
-          "DelayedCenterX": 2.0247e-320,
-          "DelayedCenterY": 2.0247e-320,
-          "ForecastHistoryMeanX": 2.0247e-320,
-          "ForecastHistoryMeanY": 2.0247e-320,
-          "ForecastHistoryVarianceX": 2.0247e-320,
-          "ForecastHistoryCovariance": 2.0247e-320,
-          "ForecastHistoryLinearA": 2.0247e-320,
-          "ForecastHistoryLinearB": 2.0247e-320,
-          "ForecastedX": 2.0247e-320,
-          "ForecastedY": 2.0247e-320,
-          "ProjectedNewestX": 2.0247e-320,
-          "ProjectedNewestY": 2.0247e-320,
-          "ProjectedOldestX": 2.0247e-320,
-          "ProjectedOldestY": 2.0247e-320,
-          "ForecastHistoryVarianceY": 2.0247e-320,
-          "Index": 2.0247e-320,
-          "CameraDelayCatchUpSpeed": 0,
-          "CameraExtraDelay": 2.0247e-320,
-          "WaitingSpeedXMax": 2.0247e-320,
-          "WaitingSpeedYMax": 2.0247e-320,
-          "WaitingEnd": 2.0247e-320,
-          "CameraDelayCatchUpDuration": 2.0247e-320,
-          "LeftwardSpeedMax": 9000,
-          "RightwardSpeedMax": 9000,
-          "UpwardSpeedMax": 9000,
-          "DownwardSpeedMax": 9000,
-          "OldX": 9000.000000007454,
-          "OldY": 9000.000000007454,
-          "IsCalledManually": false
-        },
-        {
-          "name": "SmoothPlatformerCamera",
-          "type": "SmoothCamera::SmoothPlatformerCamera",
-          "PlatformerCharacter": "PlatformerObject",
-          "SmoothCamera": "SmoothCamera",
-          "JumpOriginY": 1.8500917387057444e-308,
-          "AirFollowFreeAreaTop": 0,
-          "AirFollowFreeAreaBottom": 0,
-          "FloorFollowFreeAreaTop": 0,
-          "FloorFollowFreeAreaBottom": 0,
-          "AirUpwardSpeed": 0.95,
-          "AirDownwardSpeed": 0.95,
-          "FloorUpwardSpeed": 0.9,
-          "FloorDownwardSpeed": 0.9,
-          "AirUpwardSpeedMax": 9000,
-          "AirDownwardSpeedMax": 9000,
-          "FloorUpwardSpeedMax": 9000,
-          "FloorDownwardSpeedMax": 9000
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.15,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle1.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle2.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle3.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Idle4.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Death",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.15,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death1.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death2.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death3.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death4.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Jump",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll3.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll4.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll5.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll6.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll7.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Roll8.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Run",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.15,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run1.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run2.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run3.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run4.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run5.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run6.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run7.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run8.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run9.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run10.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run11.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run12.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run13.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run14.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run15.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Run16.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 17,
-                      "y": 23
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 16,
-                    "y": 21
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 16,
-                    "y": 20.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 9
-                      },
-                      {
-                        "x": 22,
-                        "y": 28
-                      },
-                      {
-                        "x": 9,
-                        "y": 28
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "height": 16,
@@ -8468,14 +7042,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -8510,14 +7084,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -8552,194 +7126,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Death",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.15,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death1.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 65,
-                      "y": 120
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 57,
-                    "y": 116.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 57,
-                    "y": 117
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death2.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 65,
-                      "y": 120
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 57,
-                    "y": 116.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 57,
-                    "y": 117
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death3.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 65,
-                      "y": 120
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 57,
-                    "y": 116.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 57,
-                    "y": 117
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 39,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 88
-                      },
-                      {
-                        "x": 72,
-                        "y": 133
-                      },
-                      {
-                        "x": 39,
-                        "y": 133
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Knight-Death4.png",
-                  "points": [
-                    {
-                      "name": "Staff",
-                      "x": 65,
-                      "y": 120
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 57,
-                    "y": 116.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -8786,14 +7180,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -8828,14 +7222,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -8870,14 +7264,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -8912,14 +7306,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -8966,14 +7360,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -9008,14 +7402,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -9050,14 +7444,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -9092,14 +7486,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -9134,14 +7528,14 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -9176,14 +7570,194 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 57,
-                    "y": 116.5
+                    "x": 53,
+                    "y": 39
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 57,
-                    "y": 117
+                    "x": 59,
+                    "y": 39.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Death",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect10.png",
+                  "points": [
+                    {
+                      "name": "Staff",
+                      "x": 65,
+                      "y": 120
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 53,
+                    "y": 39
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 59,
+                    "y": 39.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect11.png",
+                  "points": [
+                    {
+                      "name": "Staff",
+                      "x": 65,
+                      "y": 120
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 53,
+                    "y": 39
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 59,
+                    "y": 39.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect12.png",
+                  "points": [
+                    {
+                      "name": "Staff",
+                      "x": 65,
+                      "y": 120
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 53,
+                    "y": 39
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 59,
+                    "y": 39.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 39,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 88
+                      },
+                      {
+                        "x": 72,
+                        "y": 133
+                      },
+                      {
+                        "x": 39,
+                        "y": 133
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Death effect13.png",
+                  "points": [
+                    {
+                      "name": "Staff",
+                      "x": 65,
+                      "y": 120
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 53,
+                    "y": 39
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 59,
+                    "y": 39.5
                   },
                   "customCollisionMask": [
                     [
@@ -10834,9 +9408,6 @@
     "children": [
       {
         "objectName": "Player"
-      },
-      {
-        "objectName": "Player2"
       },
       {
         "objectName": "Fire_Staff"

@@ -2803,7 +2803,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_026.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_026.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_026.png",
         "smoothed": false,
         "userAdded": false
@@ -2811,7 +2811,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_027.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_027.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_027.png",
         "smoothed": false,
         "userAdded": false
@@ -2819,7 +2819,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_028.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_028.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_028.png",
         "smoothed": false,
         "userAdded": false
@@ -2827,7 +2827,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_029.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_029.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_029.png",
         "smoothed": false,
         "userAdded": false
@@ -2835,7 +2835,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_030.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_030.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_030.png",
         "smoothed": false,
         "userAdded": false
@@ -2843,7 +2843,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_031.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_031.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_031.png",
         "smoothed": false,
         "userAdded": false
@@ -2851,7 +2851,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_032.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_032.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_032.png",
         "smoothed": false,
         "userAdded": false
@@ -2859,7 +2859,7 @@
       {
         "file": "Monster design/Death_1/Death animation/Death_033.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"Monster design/Death_1/Death animation/Death_033.png\",\"extension\":\".png\"}",
         "name": "Monster design\\Death_1\\Death animation\\Death_033.png",
         "smoothed": false,
         "userAdded": false
@@ -3117,6 +3117,390 @@
         "name": "Death effect2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/dead.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss Fight Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Fight Background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Boss Fight Background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Boss Fight Background2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Background_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background_04.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_010.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_011.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_012.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_013.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_014.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_014.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_015.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_015.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_016.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_016.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_017.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_017.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_018.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_018.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_019.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_020.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_020.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_021.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_022.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_023.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_023.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_024.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_024.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_025.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_025.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_026.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "新建文件夹 (2)\\Archangel_026.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_027.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_027.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_027.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_028.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_028.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_028.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_029.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_029.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_029.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_030.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_030.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_031.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_031.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_031.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_032.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_032.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_032.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_033.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_033.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_033.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_034.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_034.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_034.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_035.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_035.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_035.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dead2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Death effect13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Death effect13.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3188,6 +3572,26 @@
       "name": "Phase",
       "type": "number",
       "value": 1
+    },
+    {
+      "name": "Disappearing",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Angel_Spawned",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Boss_Dead",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Angel_Dead",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

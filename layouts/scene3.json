@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.384119804630773,
+    "zoomFactor": 0.8700232859857878,
     "windowMask": false
   },
   "objectsGroups": [
@@ -242,7 +242,7 @@
       "name": "Player",
       "persistentUuid": "736535fa-6b09-484b-93da-25892852a1eb",
       "width": 80,
-      "x": 465,
+      "x": 449,
       "y": 530,
       "zOrder": 140,
       "numberProperties": [],
@@ -394,9 +394,9 @@
       "name": "Boss",
       "persistentUuid": "2921bd09-91ea-4c7b-9565-6d2d7f4ff60b",
       "width": 0,
-      "x": 416,
-      "y": 336,
-      "zOrder": 139,
+      "x": 434,
+      "y": 394,
+      "zOrder": 140,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -413,6 +413,40 @@
       "x": 32,
       "y": 32,
       "zOrder": 140,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 960,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "Background_Boss",
+      "persistentUuid": "7776a605-98f1-40f8-9d62-b4e96bdc22c2",
+      "width": 1536,
+      "x": -112,
+      "y": -80,
+      "zOrder": 141,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "c4520d16-e169-446c-88a0-2ce7150adba9",
+      "width": 48,
+      "x": 160,
+      "y": 544,
+      "zOrder": -203,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3307,17 +3341,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "botton_floor.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Ice_Ball",
@@ -5344,10 +5367,10 @@
           "Flippable": "Flippable"
         },
         {
-          "gravity": 300,
-          "jumpSpeed": 250,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 300,
+          "jumpSpeed": 250,
           "ignoreDefaultControls": true,
           "acceleration": 400,
           "canGoDownFromJumpthru": true,
@@ -5452,6 +5475,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5494,6 +5522,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5536,6 +5569,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5590,6 +5628,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5632,6 +5675,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5674,6 +5722,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5716,6 +5769,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5770,6 +5828,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5812,6 +5875,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5854,6 +5922,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5896,6 +5969,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5938,6 +6016,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -5980,6 +6063,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -6034,6 +6122,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -6076,6 +6169,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -6118,6 +6216,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -6160,6 +6263,11 @@
                       "name": "Staff",
                       "x": 65,
                       "y": 120
+                    },
+                    {
+                      "name": "Movement",
+                      "x": 58.5,
+                      "y": 106
                     }
                   ],
                   "originPoint": {
@@ -7854,24 +7962,40 @@
           "PercentDamageReduction": 0
         },
         {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 50,
+          "name": "Pathfinding",
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "canGrabPlatforms": true,
+          "canGrabWithoutMoving": true,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 375,
+          "jumpSustainTime": 0.2,
+          "maxFallingSpeed": 250,
+          "maxSpeed": 30,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "yGrabOffset": 0,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
-          "canGrabPlatforms": false,
-          "canGrabWithoutMoving": true,
           "deceleration": 1500,
           "gravity": 1000,
-          "ignoreDefaultControls": true,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
-          "maxFallingSpeed": 700,
-          "maxSpeed": 40,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
-          "xGrabTolerance": 10,
-          "yGrabOffset": 0
+          "xGrabTolerance": 10
         },
         {
           "name": "Tween",
@@ -7893,27 +8017,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -7929,27 +8053,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -7965,27 +8089,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8001,27 +8125,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8037,27 +8161,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8073,27 +8197,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8121,27 +8245,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8157,27 +8281,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8193,27 +8317,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8229,27 +8353,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8265,27 +8389,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8305,7 +8429,8 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.5,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -8313,27 +8438,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8349,27 +8474,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8385,27 +8510,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8421,27 +8546,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8457,27 +8582,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8493,27 +8618,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8529,27 +8654,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8565,27 +8690,63 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
+                        "y": 74
+                      },
+                      {
+                        "x": 10.5,
+                        "y": 72.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dead",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 33.5,
+                    "y": 57.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 34,
+                    "y": 58.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 68,
+                        "y": 53
+                      },
+                      {
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8600,12 +8761,12 @@
           ]
         },
         {
-          "name": "",
+          "name": "Attack",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": true,
-              "timeBetweenFrames": 0.125,
+              "looping": false,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -8613,27 +8774,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8649,27 +8810,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8685,27 +8846,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8721,27 +8882,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8757,27 +8918,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8793,27 +8954,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8829,27 +8990,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8865,27 +9026,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8901,27 +9062,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8937,27 +9098,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -8973,27 +9134,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -9009,27 +9170,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -9045,27 +9206,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -9081,27 +9242,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -9117,27 +9278,27 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 33.5,
+                    "y": 57.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 34,
+                    "y": 58.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 26.5,
-                        "y": 38.5
+                        "x": 28,
+                        "y": 33.5
                       },
                       {
-                        "x": 43,
-                        "y": 38
+                        "x": 68,
+                        "y": 53
                       },
                       {
-                        "x": 42,
+                        "x": 66,
                         "y": 74
                       },
                       {
@@ -9238,6 +9399,1611 @@
           }
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background_Boss",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Background_04.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Angel",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 0,
+          "DamageCooldown": 0,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
+        {
+          "maxSpeed": 50,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1
+        },
+        {
+          "jumpSpeed": 400,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": true,
+          "canGrabWithoutMoving": true,
+          "ignoreDefaultControls": true,
+          "jumpSustainTime": 0.2,
+          "maxFallingSpeed": 250,
+          "maxSpeed": 30,
+          "yGrabOffset": 0,
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ladderClimbingSpeed": 150,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Floating",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_012.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_013.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_014.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spawn",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.3333333333333333,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_035.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_034.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_030.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_029.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_027.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_015.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_016.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_017.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_018.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_019.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_020.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_021.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.16666666666666666,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_027.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_028.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_029.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_030.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_031.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_032.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_033.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_034.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "新建文件夹 (2)\\Archangel_035.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 54.5,
+                    "y": 61.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 55,
+                    "y": 61.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 28
+                      },
+                      {
+                        "x": 95,
+                        "y": 86
+                      },
+                      {
+                        "x": 2,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -9295,9 +11061,6 @@
         "objectName": "Saw"
       },
       {
-        "objectName": "NewTiledSprite"
-      },
-      {
         "objectName": "RopeLong"
       },
       {
@@ -9314,6 +11077,9 @@
       },
       {
         "objectName": "Boss"
+      },
+      {
+        "objectName": "Angel"
       },
       {
         "objectName": "LeftArrowRoundButton"
@@ -9371,6 +11137,9 @@
       },
       {
         "objectName": "RedFlatBar"
+      },
+      {
+        "objectName": "Background_Boss"
       }
     ]
   },
@@ -9436,6 +11205,108 @@
           "parameters": [
             "Boss",
             "\"Invis\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Door"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Angel_Dead",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Door",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Door",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Door",
+                "Animation",
+                "=",
+                "\"Opening\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "door-editor-output.mp3",
+                "",
+                "75",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1.25"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Scene3\"",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -9660,46 +11531,112 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Player",
-                "Boss",
-                "",
-                "",
+                "Phase",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transitioning",
+                "=",
                 ""
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "BooleanVariable"
               },
-              "parameters": []
+              "parameters": [
+                "Disappearing",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"dead\""
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Health::Health::Hit"
+                "value": "PathfindingBehavior::SetDestination"
               },
               "parameters": [
-                "Player",
-                "Health",
-                "5",
+                "Boss",
+                "Pathfinding",
                 "",
-                "",
-                ""
+                "Player.X()",
+                "Player.Y()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "Boss.Y()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "PlatformerObject"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "RedFlatBar",
-                "-",
-                "5",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "Boss.Y() + 40"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateDownKey"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "PlatformerObject"
+                  ]
+                }
               ]
             }
           ]
@@ -9709,16 +11646,119 @@
           "conditions": [
             {
               "type": {
-                "value": "Health::Health::Health"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "Boss",
-                "Health",
+                "Phase",
                 "=",
-                "0",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transitioning",
+                "=",
                 ""
               ]
             },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Disappearing",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Boss",
+                "Animation",
+                "=",
+                "\"dead\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Boss",
+                "Pathfinding",
+                "",
+                "Player.X()",
+                "Player.Y()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "Boss.Y()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "Boss.Y() + 40"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateDownKey"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "NumberVariable"
@@ -9728,12 +11768,21 @@
                 "=",
                 "3"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Disappearing",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
               "parameters": [
                 "Boss",
@@ -9741,6 +11790,240 @@
                 "=",
                 "\"dead\""
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Angel_Spawned",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Boss",
+                "Pathfinding",
+                "",
+                "Player.X()",
+                "Player.Y()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    "<",
+                    "Boss.Y()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Player",
+                    ">",
+                    "Boss.Y() + 40"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateDownKey"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Boss",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "Boss",
+                "Health",
+                "!=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transitioning",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Angel_Spawned",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "hurt.wav",
+                    "",
+                    "50",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Hit"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    "5",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "RedFlatBar",
+                    "-",
+                    "5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Attack\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"Floating\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9793,7 +12076,64 @@
               "parameters": [
                 "Boss",
                 "Health",
-                "10",
+                "50",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Fireball",
+                "Angel",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transitioning",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Fireball",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Angel",
+                "Health",
+                "50",
                 "",
                 "",
                 ""
@@ -9866,6 +12206,63 @@
                 "value": "CollisionNP"
               },
               "parameters": [
+                "Ice_Ball",
+                "Angel",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transitioning",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ice_Ball",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Angel",
+                "Health",
+                "10",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
                 "Lightning",
                 "Boss",
                 "",
@@ -9906,6 +12303,63 @@
               },
               "parameters": [
                 "Boss",
+                "Health",
+                "10",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Lightning",
+                "Angel",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Transitioning",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Lightning",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Angel",
                 "Health",
                 "10",
                 "",
@@ -9956,6 +12410,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Disappearing",
+                    "True",
+                    "="
+                  ]
+                },
                 {
                   "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
@@ -10010,6 +12474,16 @@
                     "\"linear\"",
                     "0.75",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Disappearing",
+                    "False",
+                    "="
                   ]
                 },
                 {
@@ -10268,7 +12742,7 @@
                     "Boss",
                     "\"Make Wall\"",
                     ">=",
-                    "8"
+                    "7"
                   ]
                 },
                 {
@@ -10360,6 +12834,16 @@
               "actions": [
                 {
                   "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Disappearing",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                   },
                   "parameters": [
@@ -10412,6 +12896,16 @@
                     "\"linear\"",
                     "0.75",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Disappearing",
+                    "False",
+                    "="
                   ]
                 },
                 {
@@ -10629,8 +13123,851 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Make Wall\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Invis\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Make Wall\"",
+                    ">=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Fire_Wall",
+                    "RandomInRange(300,660)",
+                    "RandomInRange(300,550)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Ice_Wall",
+                    "RandomInRange(300,660)",
+                    "RandomInRange(300,550)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Lightning_Wall",
+                    "RandomInRange(300,660)",
+                    "RandomInRange(300,550)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Make Wall\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Invis\"",
+                    ">=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Disappearing",
+                    "True",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Tween",
+                    "\"Fade\"",
+                    "0",
+                    "\"linear\"",
+                    "0.75",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "=",
+                    "RandomInRange(200,700)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "=",
+                    "RandomInRange(260,570)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Tween",
+                    "\"Fade\"",
+                    "250",
+                    "\"linear\"",
+                    "0.75",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Disappearing",
+                    "False",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Invis\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Health",
+                    "<=",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Phase",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Invis\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "\"Make Wall\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Walls",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Angel",
+                    "450",
+                    "450",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Angel",
+                    "Animation",
+                    "=",
+                    "\"Spawn\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Angel_Spawned",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Angel_Spawned",
+                    "True",
+                    "="
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "=",
+                    "Angel.X() + 50",
+                    "=",
+                    "Angel.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Angel",
+                    "Animation",
+                    "=",
+                    "\"attack\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Boss",
+                    "Animation",
+                    "=",
+                    "\"dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Boss",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Boss_Dead",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Angel Phase",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Boss_Dead",
+                            "True",
+                            "="
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Angel",
+                            "\"Make Wall\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Health::Health::Health"
+                              },
+                              "parameters": [
+                                "Angel",
+                                "Health",
+                                "<",
+                                "1",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "Angel_Dead",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Angel",
+                                "Pathfinding",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Angel",
+                                "Health",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Angel",
+                                "Animation",
+                                "=",
+                                "\"dead\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "Angel_Dead",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PathfindingBehavior::SetDestination"
+                              },
+                              "parameters": [
+                                "Angel",
+                                "Pathfinding",
+                                "",
+                                "Player.X()",
+                                "Player.Y()"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PosY"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "<",
+                                    "Angel.Y()"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SimulateJumpKey"
+                                  },
+                                  "parameters": [
+                                    "Angel",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PosY"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    ">",
+                                    "Angel.Y() + 60"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SimulateDownKey"
+                                  },
+                                  "parameters": [
+                                    "Angel",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Phase",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Angel",
+                                "\"Make Wall\"",
+                                ">=",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Fire_Wall",
+                                "RandomInRange(300,660)",
+                                "RandomInRange(300,550)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Ice_Wall",
+                                "RandomInRange(300,660)",
+                                "RandomInRange(300,550)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "Lightning_Wall",
+                                "RandomInRange(300,660)",
+                                "RandomInRange(300,550)",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Angel",
+                                "\"Make Wall\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Angel",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "Angel_Dead",
+                                "=",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "hurt.wav",
+                                    "",
+                                    "50",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Health::Health::Hit"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Health",
+                                    "5",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                                  },
+                                  "parameters": [
+                                    "RedFlatBar",
+                                    "-",
+                                    "5",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Angel",
+                                    "Animation",
+                                    "=",
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "Angel",
+                                    "Animation",
+                                    "=",
+                                    "\"attack\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                                  },
+                                  "parameters": [
+                                    "Angel",
+                                    "Animation"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Angel",
+                                    "Animation",
+                                    "=",
+                                    "\"Floating\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ]
             }
           ],
           "parameters": []
@@ -10793,6 +14130,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
     },
     {
       "name": "Platform",
