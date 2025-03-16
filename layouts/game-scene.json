@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 1.3389693172845551,
+    "zoomFactor": 1.3841198046307026,
     "windowMask": false
   },
   "objectsGroups": [
@@ -359,6 +359,39 @@
       "x": 160,
       "y": 288,
       "zOrder": 108,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TUTTEXT",
+      "persistentUuid": "15e5ee97-b25c-4935-aa7f-0a0dfad6de39",
+      "width": 502,
+      "x": 0,
+      "y": 128,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TUTTEXT2",
+      "persistentUuid": "a2ab283f-90ec-43b2-ba7d-6e647bb6036b",
+      "width": 0,
+      "x": 224,
+      "y": 128,
+      "zOrder": 111,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5724,6 +5757,72 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "1f27bc19f1ed9863a81f005c53bc95374e2449d391caf323c0b5cf843f035bfa",
+      "bottomMargin": 16,
+      "height": 48,
+      "leftMargin": 16,
+      "name": "DefaultTransparentPanel22",
+      "rightMargin": 16,
+      "texture": "Default panel-transparent-center (23).png",
+      "tiled": false,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 48,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "TUTTEXT",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [
+        {
+          "name": "Score",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "MOVE WITH:\nW A S D & SPACE",
+        "opacity": 255,
+        "scale": 0.5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+        "textureAtlasResourceName": "PixelOperator8-Bold.png",
+        "align": "left",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "TUTTEXT2",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [
+        {
+          "name": "Score",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "ONE MUST DEFEAT ALL ENEMIES",
+        "opacity": 255,
+        "scale": 0.5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "PixelOperator8-Bold.fnt",
+        "textureAtlasResourceName": "PixelOperator8-Bold.png",
+        "align": "left",
+        "wordWrap": true
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5763,6 +5862,12 @@
         "objectName": "UI_Score"
       },
       {
+        "objectName": "TUTTEXT"
+      },
+      {
+        "objectName": "TUTTEXT2"
+      },
+      {
         "objectName": "Platform_Moving"
       },
       {
@@ -5788,6 +5893,9 @@
       },
       {
         "objectName": "RightStick"
+      },
+      {
+        "objectName": "DefaultTransparentPanel22"
       }
     ]
   },

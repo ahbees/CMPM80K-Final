@@ -3543,6 +3543,897 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Default-panel (12).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default-panel (12).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Panels/aabe4ec83f4fbeb4295288d852829fca84e8e2de5e0833eb6484ace30add656f_Default-panel (12).png",
+          "name": "Default-panel (12).png"
+        }
+      },
+      {
+        "file": "assets/Default panel-transparent-center (23).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default panel-transparent-center (23).png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Panels/48217786a67ccccdd4d77328cbbf23cc008759fee6e484d539c787e01db77f04_Default panel-transparent-center (23).png",
+          "name": "Default panel-transparent-center (23).png"
+        }
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/nebula_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c74b49dffb4fe99d355a59a4f57aa8d8be52a053ea768aeeb008387211470ff3_nebula_1.png",
+          "name": "nebula_1.png"
+        }
+      },
+      {
+        "file": "assets/nebula_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b3d9a6080fde59a9b829336fc8112639736752ae9591f6564bc9b11708e4c5b3_nebula_10.png",
+          "name": "nebula_10.png"
+        }
+      },
+      {
+        "file": "assets/nebula_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ef14e8b3990622cad67d6a67d320bdeb4446e6470446822a287285b78478ab95_nebula_11.png",
+          "name": "nebula_11.png"
+        }
+      },
+      {
+        "file": "assets/nebula_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/77cc45864fcfaa94de41931e455839b4c7c99b4bb9a8fbce7832fff7b2126101_nebula_12.png",
+          "name": "nebula_12.png"
+        }
+      },
+      {
+        "file": "assets/nebula_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d7fdb18e18cc354d229977b876606a431c38bee802c6a979ef0c03ad0bf729e9_nebula_13.png",
+          "name": "nebula_13.png"
+        }
+      },
+      {
+        "file": "assets/nebula_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c07275a7fb218991e4e8e8c721a0dc761a8841200a6f566c398b115e34fae3ea_nebula_14.png",
+          "name": "nebula_14.png"
+        }
+      },
+      {
+        "file": "assets/nebula_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/dfca9f503cd19a2e97d7e362d85c076fd63a3db98baba48f2940aa540ed8a042_nebula_15.png",
+          "name": "nebula_15.png"
+        }
+      },
+      {
+        "file": "assets/nebula_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d622c410d79108f70741ef25174d8938d97e79f79c4f1fe4c6689177ec86355f_nebula_16.png",
+          "name": "nebula_16.png"
+        }
+      },
+      {
+        "file": "assets/nebula_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/54d9fc0e96b0594b25b050941f2c5b9e852edd005df7c23acfe8ad7ef244b1de_nebula_17.png",
+          "name": "nebula_17.png"
+        }
+      },
+      {
+        "file": "assets/nebula_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/33a68f5d58a8456aa2ac78e9918ed719ce47f7ea8caeb2022d5d9aa61c63c7a9_nebula_18.png",
+          "name": "nebula_18.png"
+        }
+      },
+      {
+        "file": "assets/nebula_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/72183837114cbb13d6de09c3fd3b306b1aeb964c7bf57688f8913688663702c5_nebula_19.png",
+          "name": "nebula_19.png"
+        }
+      },
+      {
+        "file": "assets/nebula_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/39b32994fb66bc8edeb3a18df615200c8a5ebab76e230b19d8b3eb8f1490dcbc_nebula_2.png",
+          "name": "nebula_2.png"
+        }
+      },
+      {
+        "file": "assets/nebula_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/51bda6f2d608a1a07b42b575f7064d3c2d07e922b79c84656a033875d235ef8c_nebula_20.png",
+          "name": "nebula_20.png"
+        }
+      },
+      {
+        "file": "assets/nebula_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/52bbc86b5ee2bba7916338421726b28196a994105cec325371a88db576470f65_nebula_21.png",
+          "name": "nebula_21.png"
+        }
+      },
+      {
+        "file": "assets/nebula_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6de5c0c1b746e100644938561dfd21d4d8c53759d581c35d7dc7ded83618a4f3_nebula_22.png",
+          "name": "nebula_22.png"
+        }
+      },
+      {
+        "file": "assets/nebula_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/31d73b17bbfb41aaff87cdba2548ebaab6fed8f7766f93ff73955f33ae42fe88_nebula_23.png",
+          "name": "nebula_23.png"
+        }
+      },
+      {
+        "file": "assets/nebula_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/12d28dc613832de3673ec2300a37e41d6f2fedcca2302293a9bab6ea0a1cbbea_nebula_24.png",
+          "name": "nebula_24.png"
+        }
+      },
+      {
+        "file": "assets/nebula_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/963057654af344c3ea09ab110ac070b0733c7e05c5ca3f86bb0408bb75c4a806_nebula_25.png",
+          "name": "nebula_25.png"
+        }
+      },
+      {
+        "file": "assets/nebula_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3abeed894098d252e03a2638b2bf758d0de4503c6d404dd4afe258d3c48780d7_nebula_26.png",
+          "name": "nebula_26.png"
+        }
+      },
+      {
+        "file": "assets/nebula_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cbb1c5d37396f1cb9670b02136059379de80ff945498492fd57b25ba03aa0757_nebula_27.png",
+          "name": "nebula_27.png"
+        }
+      },
+      {
+        "file": "assets/nebula_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3e8b84e5cf841688f9dcef093982b5bc7ac602a33ef4f35556b45067db07f4a8_nebula_28.png",
+          "name": "nebula_28.png"
+        }
+      },
+      {
+        "file": "assets/nebula_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8e0b34093ce6f67e292e6e230d602fdcf7810f6985a191fad3f4771a03f548bb_nebula_29.png",
+          "name": "nebula_29.png"
+        }
+      },
+      {
+        "file": "assets/nebula_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d68f5275f6fd8e2ffbe4dc0f6e3040275a407216e4492ca924cdaf2587b3f1a1_nebula_3.png",
+          "name": "nebula_3.png"
+        }
+      },
+      {
+        "file": "assets/nebula_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/232f859750ec4b1e7726254cc47663aeb8b69a294163d3e0f6760cae3848802e_nebula_30.png",
+          "name": "nebula_30.png"
+        }
+      },
+      {
+        "file": "assets/nebula_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2aa44d1968ae8d07b127e80d870635787e0fe67a7c2895afc24206ccaade4a28_nebula_31.png",
+          "name": "nebula_31.png"
+        }
+      },
+      {
+        "file": "assets/nebula_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e755e275995584ce49931286833bd80540b487311df66e81a33dab82b321ef38_nebula_32.png",
+          "name": "nebula_32.png"
+        }
+      },
+      {
+        "file": "assets/nebula_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/32ef9344ddc68e50b0180ee16ba3ca431caae1fbc8a6a02d88e351945818fefc_nebula_33.png",
+          "name": "nebula_33.png"
+        }
+      },
+      {
+        "file": "assets/nebula_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c165f212462cd9eb9e45e683677bb7bce3fe02b6c729d7d11374acb9b0e8d803_nebula_34.png",
+          "name": "nebula_34.png"
+        }
+      },
+      {
+        "file": "assets/nebula_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f3c20ac6c0bcfbf757e8d639d9808412a8a712798bfbd1af9646957ffc439937_nebula_35.png",
+          "name": "nebula_35.png"
+        }
+      },
+      {
+        "file": "assets/nebula_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/88e8f664fd33c59c0d48c597f63060d8c91b3238c0f7a155b6eb30cffbc9e88d_nebula_36.png",
+          "name": "nebula_36.png"
+        }
+      },
+      {
+        "file": "assets/nebula_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/29dccea1d57005ecfde6839699dac9cb390bdeb6d2b5e706009b4fc012f08473_nebula_37.png",
+          "name": "nebula_37.png"
+        }
+      },
+      {
+        "file": "assets/nebula_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e8ad4164c70a79a69d164c3d833ab8b4aa4c08154fc33328042c55afab832995_nebula_38.png",
+          "name": "nebula_38.png"
+        }
+      },
+      {
+        "file": "assets/nebula_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a4e35d6d75c16a30967ec13188068d765b3e66e2f1d8e5ee23db5cdb7f01fb7c_nebula_39.png",
+          "name": "nebula_39.png"
+        }
+      },
+      {
+        "file": "assets/nebula_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/45fb79d213b1595fb703b541eceadbb82bdb3c541667ef58e38b8f83a80653fc_nebula_4.png",
+          "name": "nebula_4.png"
+        }
+      },
+      {
+        "file": "assets/nebula_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8e4a4a6666bfcee3830a0bfc5db5f29beea8d0f9a6da5e80991e39065e6e296b_nebula_40.png",
+          "name": "nebula_40.png"
+        }
+      },
+      {
+        "file": "assets/nebula_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a1865324fffcdd15b25440ca45cda85279f57375278793e4bc76668244df2862_nebula_41.png",
+          "name": "nebula_41.png"
+        }
+      },
+      {
+        "file": "assets/nebula_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/86e2e13dc3b3557b07148b510ace38dd9e5c30cfb11bcf43642326e24d92b18d_nebula_42.png",
+          "name": "nebula_42.png"
+        }
+      },
+      {
+        "file": "assets/nebula_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/640ab4b69cf7ade7f73ee7133eb9b2cf03f7458d3cb9fbed41fc68ecb9a348fb_nebula_43.png",
+          "name": "nebula_43.png"
+        }
+      },
+      {
+        "file": "assets/nebula_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f0c26196bd1d9412c7e7c6d0631c6df32ad89e37c3b7a16bf7013c623b388dbb_nebula_44.png",
+          "name": "nebula_44.png"
+        }
+      },
+      {
+        "file": "assets/nebula_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/124b1d7cb61db6c538d5bffb9e7c793e5108be803a1f6aeae8274fcb5e6776c4_nebula_45.png",
+          "name": "nebula_45.png"
+        }
+      },
+      {
+        "file": "assets/nebula_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/33820ecebb49dfabf28969a96cf438fe9f72a67da1bc7bccb88a4f27a4321100_nebula_46.png",
+          "name": "nebula_46.png"
+        }
+      },
+      {
+        "file": "assets/nebula_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5a37f2fec91d21c9da2cca92a1a16c2d61ee3cbbdc59183bd0a3e85c44cdf609_nebula_47.png",
+          "name": "nebula_47.png"
+        }
+      },
+      {
+        "file": "assets/nebula_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/318665d109964fae8690e390436610cb01e35c9ac1cde5d98228bf667bb4c36a_nebula_48.png",
+          "name": "nebula_48.png"
+        }
+      },
+      {
+        "file": "assets/nebula_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5e3e33dd11e81befe5809f9a26bc82b0fc9008aa35c40c2449e0953b11e90d3f_nebula_49.png",
+          "name": "nebula_49.png"
+        }
+      },
+      {
+        "file": "assets/nebula_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9603cdaceb76d62f5466cb68614306c9f634ad57eea5cb7b822d3480bef8d842_nebula_5.png",
+          "name": "nebula_5.png"
+        }
+      },
+      {
+        "file": "assets/nebula_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/91b1dfa24b20af7eceff53d20cbe053b0e52d3d1b492ab27d23182901f14b735_nebula_50.png",
+          "name": "nebula_50.png"
+        }
+      },
+      {
+        "file": "assets/nebula_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/758644dbf3a57e02313c5a2497853a5d3cc57fad197961067a0d1080d86d4ebc_nebula_51.png",
+          "name": "nebula_51.png"
+        }
+      },
+      {
+        "file": "assets/nebula_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/11bc2bc1ea23c723000b164c999cc3ea1f86198fb47b46b22f6bb9e7ebe2f0b0_nebula_52.png",
+          "name": "nebula_52.png"
+        }
+      },
+      {
+        "file": "assets/nebula_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/314efd05592e5bd56fa9219816dc03c971afe7520ed5c971bf8402189811b814_nebula_53.png",
+          "name": "nebula_53.png"
+        }
+      },
+      {
+        "file": "assets/nebula_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/11bff9e401533ea5514b0db68c110d9941739be90f288e573018cbf7add74237_nebula_54.png",
+          "name": "nebula_54.png"
+        }
+      },
+      {
+        "file": "assets/nebula_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/79fa73a84d9c5b2c0cdccfc2726c71a1e406c5c3596982d581716e8ad2447b08_nebula_55.png",
+          "name": "nebula_55.png"
+        }
+      },
+      {
+        "file": "assets/nebula_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a28214d082dea0785a3766d8bdfb392f3d06c09a4f4823da89b2a43350b0355d_nebula_56.png",
+          "name": "nebula_56.png"
+        }
+      },
+      {
+        "file": "assets/nebula_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/da58b61a9b519a65f92deeae69a2b0477f336730d4cd5fb2e1652f888e414f2c_nebula_57.png",
+          "name": "nebula_57.png"
+        }
+      },
+      {
+        "file": "assets/nebula_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f38e531809ae843cb1b3e12780c1b228dd007bc9cd8692ef7fb0e25cc33c8da7_nebula_58.png",
+          "name": "nebula_58.png"
+        }
+      },
+      {
+        "file": "assets/nebula_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2c5852a07c3ae7780b9481fe703e673a12dd9fd55a43fc1426bf3acb7dd243cd_nebula_59.png",
+          "name": "nebula_59.png"
+        }
+      },
+      {
+        "file": "assets/nebula_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/edd5178e40a882bcf96aa284e1b45b968327a2558ff01267c885e7bb9a822577_nebula_6.png",
+          "name": "nebula_6.png"
+        }
+      },
+      {
+        "file": "assets/nebula_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4dacd988b7a1e2c0a77ec3acab9f73c120d9600ce86644e694cc18baed5d23f2_nebula_60.png",
+          "name": "nebula_60.png"
+        }
+      },
+      {
+        "file": "assets/nebula_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c74b49dffb4fe99d355a59a4f57aa8d8be52a053ea768aeeb008387211470ff3_nebula_61.png",
+          "name": "nebula_61.png"
+        }
+      },
+      {
+        "file": "assets/nebula_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/05effb21edeaaf4cb390f21c5cad00349314354f612dd49dbb2ee2b5e5ab1724_nebula_7.png",
+          "name": "nebula_7.png"
+        }
+      },
+      {
+        "file": "assets/nebula_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5ff69f44520b77fb1817fc66d85780502c530cf6b3cfdcb776bea02e9d601dca_nebula_8.png",
+          "name": "nebula_8.png"
+        }
+      },
+      {
+        "file": "assets/nebula_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "nebula_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c61a4201a4a081b2fb019c13f9e8688b02754f3c99b5e80f96e4b02989ad6b16_nebula_9.png",
+          "name": "nebula_9.png"
+        }
+      },
+      {
+        "file": "assets/Colored Confetti_Blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Colored Confetti_Blue.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/FX/e323648e73761f9b81cffc728e01fc0baf61e8dfdb14e7dc42acd94c0b4ee3ac_Colored Confetti_Blue.png",
+          "name": "Colored Confetti_Blue.png"
+        }
+      },
+      {
+        "file": "assets/Colored Confetti_Green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Colored Confetti_Green.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/FX/ec74871b200005ca4fd1e5c81c2fa0d63690f037b7f5a0ac77033fd21cf49445_Colored Confetti_Green.png",
+          "name": "Colored Confetti_Green.png"
+        }
+      },
+      {
+        "file": "assets/Colored Confetti_Orange.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Colored Confetti_Orange.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/FX/6fec305f58aac94cf12b1a2fe5d5d234bebd7893c55ea8a7c3fd523b8c7cdc2e_Colored Confetti_Orange.png",
+          "name": "Colored Confetti_Orange.png"
+        }
+      },
+      {
+        "file": "assets/Colored Confetti_Pink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Colored Confetti_Pink.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/FX/0917d43e91d1dc35987d51594ecceb10dd7a222fab6061f74a4b419bc574e8de_Colored Confetti_Pink.png",
+          "name": "Colored Confetti_Pink.png"
+        }
+      },
+      {
+        "file": "assets/Colored Confetti_Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Colored Confetti_Red.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/FX/d11c4a76b8da82d457744b6cc92445c257798eee3b2a618b601fdd6d3019d8d5_Colored Confetti_Red.png",
+          "name": "Colored Confetti_Red.png"
+        }
+      },
+      {
+        "file": "assets/Colored Confetti_Yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Colored Confetti_Yellow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/FX/630609decd39a51ab6b84a0a003e856c00a540bffcf7efcaa5d2b2b1577a63b3_Colored Confetti_Yellow.png",
+          "name": "Colored Confetti_Yellow.png"
+        }
+      },
+      {
+        "file": "assets/ExplosionTexture1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ExplosionTexture1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/50be691a42be33a96faa72d0fc17e0463403326c605888adb799bbb2b02e3fd8_ExplosionTexture1.png",
+          "name": "ExplosionTexture1.png"
+        }
+      },
+      {
+        "file": "assets/ExplosionFog-Texture-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ExplosionFog-Texture-2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/64a424eeec46f355f121c7c3f25a37d39954b746c504a496642c49181467359c_ExplosionFog-Texture-2.png",
+          "name": "ExplosionFog-Texture-2.png"
+        }
+      },
+      {
+        "file": "assets/Lightning-Texture-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lightning-Texture-1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/59f79e94532692d7af37ad256af2fc5e3e4de06e178f51de298704cc5eb449b2_Lightning-Texture-1.png",
+          "name": "Lightning-Texture-1.png"
+        }
+      },
+      {
+        "file": "vecteezy_pixel-cloud-outline-retro-8-bit-style_57182325.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_pixel-cloud-outline-retro-8-bit-style_57182325.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "vecteezy_pixel-cloud-outline-retro-8-bit-style_57182326.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "vecteezy_pixel-cloud-outline-retro-8-bit-style_57182326.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

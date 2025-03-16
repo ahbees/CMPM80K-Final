@@ -9484,6 +9484,8 @@
           "PercentDamageReduction": 0
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -9494,10 +9496,8 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 50,
-          "name": "Pathfinding",
           "rotateObject": false,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         },
         {
           "name": "PlatformerCharacterAnimator",
@@ -9514,6 +9514,9 @@
           "Flippable": "Flippable"
         },
         {
+          "isFolded": true,
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": true,
@@ -9521,15 +9524,12 @@
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": true,
-          "isFolded": true,
           "jumpSpeed": 400,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 250,
           "maxSpeed": 40,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
