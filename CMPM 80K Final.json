@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 224,
+    "build": 226,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -3153,7 +3153,7 @@
       {
         "file": "新建文件夹 (2)/Archangel_001.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_001.png\",\"extension\":\".png\"}",
         "name": "新建文件夹 (2)\\Archangel_001.png",
         "smoothed": false,
         "userAdded": false
@@ -3161,7 +3161,7 @@
       {
         "file": "新建文件夹 (2)/Archangel_002.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_002.png\",\"extension\":\".png\"}",
         "name": "新建文件夹 (2)\\Archangel_002.png",
         "smoothed": false,
         "userAdded": false
@@ -3169,7 +3169,7 @@
       {
         "file": "新建文件夹 (2)/Archangel_003.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_003.png\",\"extension\":\".png\"}",
         "name": "新建文件夹 (2)\\Archangel_003.png",
         "smoothed": false,
         "userAdded": false
@@ -3177,7 +3177,7 @@
       {
         "file": "新建文件夹 (2)/Archangel_004.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_004.png\",\"extension\":\".png\"}",
         "name": "新建文件夹 (2)\\Archangel_004.png",
         "smoothed": false,
         "userAdded": false
@@ -3185,7 +3185,7 @@
       {
         "file": "新建文件夹 (2)/Archangel_005.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_005.png\",\"extension\":\".png\"}",
         "name": "新建文件夹 (2)\\Archangel_005.png",
         "smoothed": false,
         "userAdded": false
@@ -3193,7 +3193,7 @@
       {
         "file": "新建文件夹 (2)/Archangel_006.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_006.png\",\"extension\":\".png\"}",
         "name": "新建文件夹 (2)\\Archangel_006.png",
         "smoothed": false,
         "userAdded": false
@@ -3201,7 +3201,7 @@
       {
         "file": "新建文件夹 (2)/Archangel_007.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_007.png\",\"extension\":\".png\"}",
         "name": "新建文件夹 (2)\\Archangel_007.png",
         "smoothed": false,
         "userAdded": false
@@ -3501,6 +3501,48 @@
         "name": "Death effect13.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/dead3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "新建文件夹 (2)/Archangel_000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"新建文件夹 (2)/Archangel_000.png\",\"extension\":\".png\"}",
+        "name": "新建文件夹 (2)\\Archangel_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/dead4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "dead4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spawn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spawn",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "chiptune-medium-boss-218095.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "chiptune-medium-boss-218095.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3606,6 +3648,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/scene3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/end"
     }
   ],
   "externalEvents": [
